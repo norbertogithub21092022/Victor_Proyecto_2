@@ -1,4 +1,4 @@
-print('''Escriba 1) para suma de n numeros, 
+print('''Escriba 1) para suma de n numeros, #ya lo corregi angel era quitarle lo de arriba de este renglon y cmabiar una cosa de mas abajo.
       2) para producto de n numeros, 
       3) para division de 2 numeros, 
       4) para factorial, 
@@ -7,7 +7,7 @@ print('''Escriba 1) para suma de n numeros,
       7) para promedio, 
       8) para valor maximo y minimo''')
       
-operacion = int(input("1, 2, 3, 4, 5, 6, 7, 8 "))
+operacion = int(input("1, 2, 3, 4, 5, 6, 7, 8 "))# aqui te falto ponerle el "int" y los parenetesis recuerda que aqui para transformar una cadena de texto a entero se hace eso que te dije.
  
 if operacion == 1:
       print(' No hay operacion')
