@@ -1,12 +1,12 @@
 from tkinter import Menu
-Menu = '''escriba 1 para suma de n numeros,
-      2 para producto de n numeros, 
-      3 para division de 2 numeros, 
-      4 para factorial, 
-      5 para tablas, 
-      6 para cuadrado y cubo, 
-      7 para promedio, 
-      8 para valor maximo y minimo'''
+Menu = '''Escriba 1) para suma de n numeros,
+      2) para producto de n numeros, 
+      3) para division de 2 numeros, 
+      4) para factorial, 
+      5) para tablas, 
+      6) para cuadrado y cubo, 
+      7) para promedio, 
+      8) para valor maximo y minimo'''
 
 print(Menu)
       
