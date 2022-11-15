@@ -1,8 +1,8 @@
-print()
-print()
-print()
-print()
-print()
+print(' ')
+print(' ')
+print(' ')
+print(' ')
+print(' ')
 print('''Escriba 1) para suma de n numeros, #ya lo corregi angel era quitarle lo de arriba de este renglon y cmabiar una cosa de mas abajo.
       2) para producto de n numeros, 
       3) para division de 2 numeros, 
