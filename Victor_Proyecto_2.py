@@ -31,6 +31,7 @@ if operacion == 1:
       print(' El total de la suma es ----> ', suma)
     
 elif operacion == 2:
+      print(' Para finalizar tus numeros coloca 0 y enter')
       x = 1
       producto = 0
       res = 1
