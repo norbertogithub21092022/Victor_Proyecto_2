@@ -12,6 +12,7 @@ print('''Escriba 1) para suma de n numeros,
       7) para promedio, 
       8) para valor maximo y minimo''')
       
+
 operacion = int(input("Escoja una opcion... ------> "))
  
 if operacion == 1:
@@ -115,3 +116,4 @@ elif operacion == 6:
       print('El cuadrado de ',num,'es: ', cuadrado)
 else:
     print(' Caracter invalido')
+
