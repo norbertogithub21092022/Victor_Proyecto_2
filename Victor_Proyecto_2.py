@@ -11,9 +11,10 @@ print('''Escriba 1) para suma de n numeros,
       6) para cuadrado y cubo, 
       7) para promedio, 
       8) para valor maximo y minimo''')
-      
-
-operacion = int(input("Escoja una opcion... ------> "))
+print(' ')
+print(' ')
+print(' ')
+operacion = int(input("Escoja una opcion... ------>   "))
  
 if operacion == 1:
       print(' ')
@@ -27,11 +28,17 @@ if operacion == 1:
             n = int(input(' Ingresa un numero ----> '))
             if n != 0:
                   c = c + 1
-                  suma = suma + n 
+                  suma = suma + n
+      print(' ')
+      print(' ') 
       print(' El total de la suma es ----> ', suma)
     
 elif operacion == 2:
+      print(' ')
+      print(' ')
       print(' Para finalizar tus numeros coloca 0 y enter')
+      print(' ')
+      print(' ')
       x = 1
       producto = 0
       res = 1
@@ -40,6 +47,8 @@ elif operacion == 2:
             if x != 0:
                   res = res * x
                   producto = res
+      print(' ')
+      print(' ')
       print(' La suma de la multiplicacion es: ',producto)
             
 elif operacion == 3:
@@ -50,9 +59,20 @@ elif operacion == 3:
       print(' ')
       print(' ')
       numero2 = int(input("ingrese otro numero ----> "))
-      print('El resultado de la division es: ',numero1 / numero2)
+      print(' ')
+      print(' ')
+      print('El resultado de la division es:   ',numero1 / numero2)
 elif operacion == 4:
       print(' ')
+      print(' ')
+      numero=int(input(' Introdusca numero ---->  '))
+      print(' ')
+      print(' ')
+      factorial=1
+      if numero != 0:
+            for i in range(1, numero+1):
+                  factorial=factorial*i
+      print(' EL factorial de: ',numero,' es ---->  ',factorial)
       
 elif operacion == 5:
       tabla=int(input(' Elige la tabla a imprimir selecciona el numero de la tabla del 1 al 10')) 
