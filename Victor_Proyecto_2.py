@@ -135,6 +135,53 @@ elif operacion == 6:
       num=int(input('Introducir un numero: '))
       cuadrado= num*num
       print('El cuadrado de ',num,'es: ', cuadrado)
+      
+elif operacion == 7:
+      print(' ')
+      print(' ')
+      print(' ')
+      contador = 0
+      sum = 0
+      Numero = 1
+      print(' Utilice el digito  ((-1))  para finalizar su serie de numeros')
+      while Numero != -1:
+            Numero = int(input(' Introdusca un numero ---> '))
+            
+            sum += Numero
+            contador += 1
+            
+            if contador == 0:
+                  print(' No introdujo numeros')
+            else:
+                  promedio = sum / contador
+                  
+                  print(' El promedio de los {} numeros es igual a {}. '.format(contador, promedio))
+                  
+elif operacion == 8:
+      print(' ')
+      print(' ')
+      print(' ')
+      lista = []
+      cantidad = int(input(' Cantidad de numeros ----> '))
+      mayor = 0
+      menor = 0
+      L = 1
+      
+      while cantidad > 0:
+            NUMERO = float(input(' Numero #'+ str(L) + '---> '  ))
+            lista.append(NUMERO)
+            L = L + 1
+            cantidad = cantidad - 1
+            
+      mayor = max(lista)
+      menor = min(lista)
+      
+      print(' Lista de numeros: ', lista)
+      print(' ')
+      print(' Numero Mayor ---> ', mayor)
+      print(' ')
+      print(' Numero Menor ---> ', menor)
+      print(' ')
 else:
     print(' Caracter invalido')
 
