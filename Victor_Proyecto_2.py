@@ -1,3 +1,8 @@
+print(' ')
+print(' ')
+print(' ')
+print(' ')
+
 print('''Escriba 1) para suma de n numeros, 
       2) para producto de n numeros, 
       3) para division de 2 numeros, 
@@ -7,16 +12,43 @@ print('''Escriba 1) para suma de n numeros,
       7) para promedio, 
       8) para valor maximo y minimo''')
       
-operacion = int(input("1, 2, 3, 4, 5, 6, 7, 8 "))
+operacion = int(input("Escoja una opcion... ------> "))
  
 if operacion == 1:
-      print(' No hay operacion')
+      print(' ')
+      print(' ')
+      print(' ')
+      print(' ')
+      n = 0
+      c = 0
+      suma = 0
+      while n >= 0:
+            n = int(input(' Ingresa un numero ----> '))
+            if n != 0:
+                  c = c + 1
+                  suma = suma + n 
+      print(' El total de la suma es ----> ', suma)
+    
 elif operacion == 2:
-      print(' no hay operacion')
+      x = 1
+      producto = 0
+      res = 1
+      while x != 0:
+            x = int(input(' Ingresa tu numero: '))
+            if x != 0:
+                  res = res * x
+                  producto = res
+      print(' La suma de la multiplicacion es: ',producto)
+            
 elif operacion == 3:
-      numero1=int(input("ingrese un numero"))
-      numero2 = int(input("ingrese otro numero "))
-      print(numero1 / numero2)
+      print(' ')
+      print(' ')
+      print(' ')
+      numero1=int(input("ingrese un numero ----> "))
+      print(' ')
+      print(' ')
+      numero2 = int(input("ingrese otro numero ----> "))
+      print('El resultado de la division es: ',numero1 / numero2)
 elif operacion == 4:
       print(' ')
       
@@ -74,8 +106,12 @@ elif operacion == 5:
                   i += 10
 
 elif operacion == 6:
+      print(' ')
+      print(' ')
+      print(' ')
+      print(' ')
       num=int(input('Introducir un numero: '))
       cuadrado= num*num
-      print('El cuadrado de',num,'es: ', cuadrado)
+      print('El cuadrado de ',num,'es: ', cuadrado)
 else:
-    print(' caracter invalido')
+    print(' Caracter invalido')
